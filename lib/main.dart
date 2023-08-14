@@ -1,3 +1,4 @@
+import 'package:bloc_project/name/screens/name_screen.dart';
 import 'package:bloc_project/screens/counter_page.dart';
 import 'package:bloc_project/screens/dashboard.dart';
 import 'package:bloc_project/theme/theme.dart';
@@ -15,7 +16,7 @@ class BytebankApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       theme: themeBank,
-      home: CounterPage(),
+      home: NameContainer(),
     );
   }
 }
